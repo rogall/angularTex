@@ -15,7 +15,7 @@
 
     <ul id="products-list">
       <li [@productsAnim]="state" *ngFor="let product of products; let i = index">{{product.title}}
-        <img src="assets/delete.svg" (click)="removeProduct(i)">
+        <!-- <img src="assets/delete.svg" (click)="removeProduct(product.title)"> -->
         <p>{{ product.description }}</p>
       </li>
     </ul>
