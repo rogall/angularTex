@@ -7,6 +7,6 @@ instalar NodeJS e Angular CLI
 
 executar npm install
 
-executar go run products.go
+executar npm start (com o projeto https://github.com/rogall/gotex rodando)
 
 
